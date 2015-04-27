@@ -1,5 +1,33 @@
 @CHARSET "UTF-8";
 
 body {
-	background-image: url('brick.jpg');
+	/* background-image: url('../images/oldRedBrickWall02.jpg');
+	background-repeat: repeat; */
+}
+
+#container{
+	background-image: url('../images/oldRedBrickWall.png');
+}
+#address, #hours, #footer {
+	/* background-color: #ADAD85; */
+    
+}
+
+#mainBody{
+	width:100%;
+}
+
+#footer {
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+
+td, th, p{
+	color: white;
+}
+
+h3 {
+	color: white;
+	text-align: center
 }
