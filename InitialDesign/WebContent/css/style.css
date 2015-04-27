@@ -1,15 +1,14 @@
 @CHARSET "UTF-8";
 
 body {
-	/* background-image: url('../images/oldRedBrickWall02.jpg');
-	background-repeat: repeat; */
+	background-color: #1A0000;
 }
 
 #container{
 	background-image: url('../images/oldRedBrickWall.png');
 }
 #address, #hours, #footer {
-	/* background-color: #ADAD85; */
+	/* background-color: #1A0000; */
     
 }
 
@@ -23,11 +22,25 @@ body {
     padding:5px; 
 }
 
-td, th, p{
+td, th, p, h3{
 	color: white;
+	font-family: 'Bree Serif', serif;
 }
 
-h3 {
-	color: white;
-	text-align: center
+
+#social{
+	padding-left:	20%;
+}
+
+#p1{
+	font-size: 400%;
+}
+
+#p2{
+	padding-left: 20%; 
+	font-size: 400%;
+}
+
+#p3, #p4,#p5{
+	font-size: 120%;
 }
