@@ -5,10 +5,11 @@ body {
 }
 
 #container{
-	background-image: url('../images/oldRedBrickWall.png');
-}
+	background-image: url('../images/brick2.png'); 
+}	
+
 #address, #hours, #footer {
-	/* background-color: #1A0000; */
+	 padding-top: 1%;
     
 }
 
@@ -19,7 +20,6 @@ body {
 #footer {
     clear:both;
     text-align:center;
-    padding:5px; 
 }
 
 td, th, p, h3{
@@ -27,7 +27,9 @@ td, th, p, h3{
 	font-family: 'Bree Serif', serif;
 }
 
-
+#menu{
+	font-family: 'Bree Serif', serif;
+}
 #social{
 	padding-left:	20%;
 }
